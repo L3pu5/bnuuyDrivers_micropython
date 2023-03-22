@@ -1,5 +1,9 @@
 # Simple Rectangle data structure.
 # Helper function for Bnuuy drivers to seamlessly communicate.
+#      By L3pu5, L3pu5_Hare
+#
+# A simple Python wrapper for the ILI4988 driver bound to the SPI interface IM[2:0] 101 for chipsets such as
+# those ubuqituous ones on Aliexpress.
 
 class RECTANGLE():
     x = 0
