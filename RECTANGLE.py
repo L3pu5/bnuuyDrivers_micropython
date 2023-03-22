@@ -38,3 +38,6 @@ class RECTANGLE():
     
     def from_dimensions(xi, yi, width, height):
         return RECTANGLE(xi, yi, xi+width, yi+height)
+
+    def contains_point(self, point_x, point_y):
+        return (self.x < point_x < self.xf) and (self.y < point_y < self.yf)
